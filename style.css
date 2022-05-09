@@ -25,11 +25,16 @@
 
 a {
     text-decoration: none;
+    color: var(--clr-blue);
 }
 
 body {
+    display: flex;
     min-height: 100vh;
     position: relative;
+    font-family: var(--ff-libre);
+    text-align: center;
+    justify-content: center;
 }
 
 footer {
@@ -38,9 +43,39 @@ footer {
     width: 100%;
 }
 
+h1 {
+    text-align: center;
+    font-size: 150%;
+}
+
+h1 span {
+    font-weight: var(--fw-3);
+    color: var(--clr-grey);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin: 25% 7% 15% 7%;
+}
+
 /* IDs */
 
+#illustrationDashboard {
+    width: 100%;
+}
 
+#inputEmail {
+    width: 100%;
+    border-radius: 2em;
+    height: 3em;
+    border: 0.1em solid;
+    border-color: var(--clr-pblue);
+}
+#inputEmail::placeholder {
+    padding-left: 10%;
+    color: var(--clr-pblue);
+}
 
 /* Classes */
 
@@ -51,4 +86,72 @@ footer {
 
 .attribution a { 
     color: hsl(228, 45%, 44%); 
+}
+
+.btnNotify {
+    letter-spacing: 0.07em;
+    color: white;
+    border: none;
+    width: 100%;
+    border-radius: 2em;
+    height: 3em;
+    background-color: var(--clr-blue);
+    filter: drop-shadow(0 1px 2px var(--clr-blue));
+    margin-top: 4%;
+}
+
+.companyLogoDiv {
+    text-align: center;
+}
+
+.companyLogo {
+    width: 100%;
+}
+
+.content {
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.copyright {
+    font-size: 0.65em;
+    color: var(--clr-grey);
+}
+
+.iconDivs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--clr-blue);
+    background-color: transparent;
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    margin-left: 2%;
+    margin-right: 2%;
+    border: 1px solid var(--clr-pblue);
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--clr-blue);
+    margin-top: 35%;
+    margin-bottom: 10%;
+}
+
+.imgDiv {
+    margin-top: 7%;
+}
+
+.inputAndButton {
+    margin-bottom: 14%;
+}
+
+.subscribeTxt {
+    text-align: center;
+    font-size: 0.8em;
+    margin-top: 5%;
+    margin-bottom: 12%;
 }
