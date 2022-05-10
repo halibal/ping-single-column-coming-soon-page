@@ -56,7 +56,8 @@ h1 span {
 main {
     display: flex;
     flex-direction: column;
-    margin: 25% 7% 15% 7%;
+    margin: 23% 7% 15% 7%;
+    max-width: 632px;
 }
 
 /* IDs */
@@ -71,10 +72,16 @@ main {
     height: 3em;
     border: 0.1em solid;
     border-color: var(--clr-pblue);
+    margin: 0;
 }
 #inputEmail::placeholder {
     padding-left: 10%;
     color: var(--clr-pblue);
+    opacity: 0.6;
+}
+
+#inputEmail:focus {
+    outline-color: var(--clr-blue);
 }
 
 /* Classes */
@@ -89,14 +96,18 @@ main {
 }
 
 .btnNotify {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
     letter-spacing: 0.07em;
     color: white;
     border: none;
     width: 100%;
     border-radius: 2em;
-    height: 3em;
+    height: 3.5em;
     background-color: var(--clr-blue);
-    filter: drop-shadow(0 1px 2px var(--clr-blue));
+    filter: drop-shadow(0 10px 5px var(--clr-pblue));
     margin-top: 4%;
 }
 
@@ -146,7 +157,13 @@ main {
 }
 
 .inputAndButton {
+    display: flex;
+    flex-direction: column;
     margin-bottom: 14%;
+}
+
+.inputAndWarning {
+    width: 100%;
 }
 
 .subscribeTxt {
@@ -154,4 +171,98 @@ main {
     font-size: 0.8em;
     margin-top: 5%;
     margin-bottom: 12%;
+}
+
+.warningText {
+    color: var(--clr-lred);
+    font-size: 0.65em;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+@media screen and (min-width: 800px) {
+    h1 {
+        text-align: center;
+        font-size: 3em;
+    }
+
+    main {
+        margin: 6% 7% 3% 7%;
+    }
+
+    #inputEmail {
+        border-radius: 2em;
+        height: 4em;
+        border: 0.1em solid;
+        border-color: var(--clr-pblue);
+        width: 100%;
+    }
+
+    #inputEmail::placeholder {
+        font-size: medium;
+    }
+
+    .btnNotify {
+        color: white;
+        border: none;
+        border-radius: 2em;
+        height: 3.5em;
+        background-color: var(--clr-blue);
+        filter: drop-shadow(0 1px 2px var(--clr-blue));
+        margin-top: 0;
+        width: 32%;
+        font-size: medium;
+    }
+
+    .companyLogo {
+        height: 70px;
+    }
+
+    .content {
+        margin: 0;
+    }
+
+    .copyright {
+        font-size: 13px;
+        color: var(--clr-grey);
+    }
+
+    .iconDivs {
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+
+    .icons {
+        margin-top: 14%;
+        margin-bottom: 4%;
+    }
+
+    .imgDiv {
+        margin-top: 1%;
+    }
+    
+    .inputAndButton {
+        flex-direction: row;
+        margin-bottom: 12%;
+    }
+
+    .inputAndWarning {
+        width: 65%;
+        margin-right: 3%;
+    }
+
+    .subscribeTxt {
+        text-align: center;
+        font-size: 1.3em;
+        margin-top: 3%;
+        margin-bottom: 7%;
+    }
+    .warningText {
+        text-align: start;
+        color: var(--clr-lred);
+        font-size: 0.75em;
+        margin-top: 2%;
+        margin-left: 10%;
+        margin-bottom: auto;
+    }
 }
