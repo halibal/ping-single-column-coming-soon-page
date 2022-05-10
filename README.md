@@ -11,6 +11,7 @@ This is a solution to the [Ping Coming Soon Page on Frontend Mentor](https://www
     - [Screenshot](#screenshot)
     - [Links](#links)
     - [Built with](#built-with)
+    - [Useful Resources](#useful-resources)
   - [Author](#author)
 
 ## Overview
@@ -28,10 +29,10 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop Version]()
-![Desktop Version Active State]()
-![Mobile Version]()
-![Desktop Version Active State]()
+![Desktop Version](./images/desktop_default.png)
+![Desktop Version Active State](./images/desktop_active.png)
+![Mobile Version](./images/mobile_default.png)
+![Desktop Version Active State](./images/mobile_active.png)
 
 ### Links
 
@@ -44,6 +45,10 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - [JavaScript](https://www.javascript.com)
+
+### Useful Resources
+
+- [CSS Tricks | Scale Svg](https://css-tricks.com/scale-svg/)
 
 ## Author
 
