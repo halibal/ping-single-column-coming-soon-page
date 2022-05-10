@@ -36,9 +36,9 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor | My Solution](https://www.frontendmentor.io/solutions/base-apparel-coming-soon-page-with-html-css-javascript-SJ3N3hBL9)
+- Solution URL: [Frontend Mentor | My Solution](https://www.frontendmentor.io/solutions/ping-single-column-coming-soon-page-with-html-css-js-r1vIGfdIq)
   
-- Live Site URL: [Halibal | Ping Coming Soon Page](https://halibal.github.io/base-apparel-coming-home-page/)
+- Live Site URL: [Halibal | Ping Coming Soon Page](https://halibal.github.io/ping-single-column-coming-soon-page/)
 
 ### Built with
 
